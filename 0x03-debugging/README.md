@@ -6,3 +6,5 @@
 
 2-largest_number returns the largest of 3 numbers
 
+3-print_remaining_days -takes a date and prints how many days are left in the year, taking leap years into account
+
