@@ -4,5 +4,5 @@
 
 1-main.c - comments out code that causes an infinite loop
 
-
+2-largest_number returns the largest of 3 numbers
 
