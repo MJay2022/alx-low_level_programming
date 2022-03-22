@@ -12,4 +12,6 @@
 
 5-rev_string.c reverses a string.
 
+6-puts2.c prints one char out of 2 of a string, followed by a new line.
+
 
