@@ -14,4 +14,6 @@
 
 6-puts2.c prints one char out of 2 of a string, followed by a new line.
 
+7-puts_half.c prints half of a string, followed by a new line.
+
 
