@@ -4,4 +4,6 @@
 
 1-strncat.c concatenates two strings that will use at most n bytes from src.
 
+2-strncpy.c is a function that copies a string.
+
 
