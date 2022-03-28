@@ -10,4 +10,6 @@
 
 4-strpbrk.c searches a string for any of a set of bytes.
 
+5-strstr.c locates a substring.
+
 
