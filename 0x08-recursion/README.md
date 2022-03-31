@@ -16,6 +16,4 @@
 
 100-is_palindrome.c is a function that returns 1 if a string is a palindrome and 0 if not.
 
-
-
-
+101-wildcmp.c is a a function that compares two strings and returns 1 if the strings can be considered identical, otherwise return 0.
