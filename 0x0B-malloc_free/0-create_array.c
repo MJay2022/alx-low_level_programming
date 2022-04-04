@@ -3,7 +3,6 @@
 #include "main.h"
 
 /**
- *
  * create_array - main entry
  * @size: size input
  * @c: char
