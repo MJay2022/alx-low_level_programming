@@ -1,4 +1,4 @@
-#This file contains program that do the following;
+This file contains program that do the following;
 
 0-create_array.c - creates an array of chars, and initializes it with a specific char.
 
@@ -12,4 +12,4 @@
 
 100-argstostr.c - a function that concatenates all the arguments of your program
 
-
+101-strtow.c - a function that splits a string into words.
