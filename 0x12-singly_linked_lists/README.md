@@ -10,4 +10,8 @@
 
 4-free_list.c frees a list_t list.
 
+100-first.c prints a sentence before the main function is executed.
 
+101-hello_holberton.asm is 64-bit program in assembly that prints "Hello, Holberton", followed by a new line.
+
+lists.h is the header contains definition of the list_t struct and all the prototypes of the above functions.
