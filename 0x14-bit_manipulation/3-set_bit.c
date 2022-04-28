@@ -1,23 +1,17 @@
 #include "main.h"
 
 /**
- * binary_to_uint - converts a binary number to unsigned int
- * @b: string containing the binary number
- * Return: the converted number
+ * set_bit - sets a bit at a given index to 1
+ * @n: pointer to the number to change
+ * @index: index of the bit to set to 1
+ *
+ * Return: 1 for success, -1 for failure
  */
-unsigned int binary_to_uint(const char *b)
+int set_bit(unsigned long int *n, unsigned int index)
 {
-	int i;
-	unsigned int dec_val = 0;
+	if (index > 63)
+		return (-1)
 
-	if (!b)
-		return (0);
-
-	for (i = 0; b[i]; i++)
-	{
-		if (b[i] < '0' || b[i] > '1')
-			return (0);
-		dec_val = 2 * dec_val + (b[i] - '0');
-	}
-	return (dec_val);
+	*n = ((1UL << index) | *n);
+	return (1);
 }
